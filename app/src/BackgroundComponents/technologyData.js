@@ -6,7 +6,8 @@ const technologyData = [
     { id: 5, name: "Microsoft Office"},
     { id: 6, name: "Visual Studio"},
     { id: 7, name: "NetBeans"},
-    { id: 8, name: "IntelliJ"}
+    { id: 8, name: "IntelliJ"},
+    { id: 9, name: "MySQL Workbench"}
 ]
 
 export default technologyData

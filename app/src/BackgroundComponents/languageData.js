@@ -36,7 +36,7 @@ const languageData = [
     {
         id: 8,
         name: "CSS3"
-    }, { id: 9, name: "R"}, { id: 10, name: "C"}
+    }, { id: 9, name: "R"}
 ]
 
 export default languageData
