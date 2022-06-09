@@ -1,14 +1,15 @@
 import React from 'react'
 import Header from './Header'
-import About from './Body'
+import Main from './Main'
 import Footer from './Footer'
 import './style.css'
 
-function App(){
-    return(
+
+function App() {
+    return (
         <div>
             <Header />
-            <About />
+            <Main />
             <Footer />
         </div>
     )

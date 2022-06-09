@@ -17,6 +17,10 @@ function Sidebar(){
                 <a href="www.github.com/melissah717" className="links">    Github</a>
                 <a href="www.linkedin.com/in/melissah717" className="links">    LinkedIn</a>
             </div>
+
+            <div className="sidebar-widget">
+                something something
+            </div>
         </aside>
 
     )

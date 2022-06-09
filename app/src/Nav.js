@@ -1,14 +1,13 @@
 import React from 'react'
-
+import { HashLink as Link} from 'react-router-hash-link'
 
 function Nav(){
-    return(
-        <nav>
+    return (
+        <nav className="navbar">
             <ul>
-                <li><a href="#" className="current-page">home</a></li>
-                <li><a href="#">background</a></li>
-                <li><a href="#">projects</a></li>
-                <li><a href="#">contact</a></li>
+                <li><Link smooth to="#background">Background</Link></li>
+                <li><Link smooth to="#languages">Technologies</Link></li>
+                <li><Link smooth to="#projects">Projects</Link></li>
             </ul>
         </nav>
     )

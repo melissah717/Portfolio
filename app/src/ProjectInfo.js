@@ -1,4 +1,8 @@
-
+// let tankGif = require("./tankGame.gif")
+// let musicGif = require("./music.gif")
+// let gatorGif = require("./gatorMart.gif")
+// let itineraryGif = require("./itinerary.gif")
+// let discordGif = require("./discord.gif")
 
 const ProjectInfo = [
     {
@@ -23,6 +27,12 @@ const ProjectInfo = [
         id: 4,
         title: "Discord Database Bot",
         description: "A bot that ran queries on an SQL database. Includes stored functions and triggers. ERD design from the ground up, standard software lifecycle devleopment."
+    },
+
+    {
+        id: 5,
+        title: "iTinerary",
+        description: "An iOS application built using Swift to allow users to plan their vacations"
     }
 ]
 
