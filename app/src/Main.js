@@ -6,11 +6,18 @@ import TankGame from './ProjectComponents/TankGame'
 import Discord from './ProjectComponents/Discord'
 import Itinerary from './ProjectComponents/Itinerary'
 import Languages from './BackgroundComponents/Languages'
+import languageData from './BackgroundComponents/languageData'
+import Technologies from './BackgroundComponents/Technologies'
+import technologyData from './BackgroundComponents/technologyData'
+import Frameworks from './BackgroundComponents/Frameworks'
+import frameworkData from './BackgroundComponents/frameworkData'
 // import languageData from './BackgroundComponents/languageData'
 
 
 function Main() {
-    // const [readMore, setReadMore] = useState(false);
+    const languageComponent = languageData.map(language => <Languages key={language.id} name={language.name} />)
+    const technologyComponent = technologyData.map(technology => <Technologies key={technology.id} name={technology.name} />)
+    const frameworkComponent = frameworkData.map(framework => <Frameworks key={framework.id} name={framework.name} />)
     return (
         < div className="container container-flex" >
             <Sidebar />
@@ -34,8 +41,15 @@ function Main() {
                         wellness, mental health, and environmental causes.</p>
                 </article>
                 <article className="section">
-                    <h2 className="section-title" id="languages">Technologies</h2>
-                    <p className="article-body">{Languages}</p>
+                    <h2 className="section-title" id="languages">Technical Skills</h2>
+                    <div className="technology-container">
+                        <h3>Languages</h3>
+                        <p className="article-list">{languageComponent}</p>
+                        <h3>Technologies</h3>
+                        <p className="article-list">{technologyComponent}</p>
+                        <h3>Frameworks</h3>
+                        <p className="article-list">{frameworkComponent}</p>
+                    </div>
                 </article>
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Languages(props){
+function Frameworks(props){
     return(
         <div>
             <p>{props.name}</p>
@@ -8,4 +8,4 @@ function Languages(props){
     )
 }
 
-export default Languages
+export default Frameworks

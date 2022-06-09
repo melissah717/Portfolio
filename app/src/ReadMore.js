@@ -33,10 +33,7 @@ const LambdaDescription = () => {
     return (
       <div>
           <ReadMore>
-            OOP is whateves OOP is whateves OOP is whateves OOP is whatevesOOP is whatevesOOP is whateves
-            OOP is whatevesOOP is whateves OOP is whatevesOOP is whateves OOP is whateves OOP is whateves OOP is whatevesOOP is whateves
-            OOP is whatevesOOP is whatevesOOP is whatevesOOP is whateves OOP is whatevesOOP is whateves OOP is whateves
-            OOP is whatevesOOP is whatevesvOOP is whateves
+          TankGame is a Java program built using the pillars of object oriented programming. In this program, two players can interact with each other using the keyboard. The game utilizes the model view controller design archetype. A rudimentary model is used to keep track of location data. The view is the user interface that the players see and interact with. The controller handles all of the logic in the game, including communication between the model and the view
           </ReadMore>
       </div>
     );

@@ -16,7 +16,7 @@ const languageData = [
 
     {
         id: 4,
-        name: "React"
+        name: "Python"
     },
 
     {
@@ -28,26 +28,15 @@ const languageData = [
         id: 6,
         name: "SQL"
     },
-
     {
         id: 7,
-        name: "git"
-    },
-
-    {
-        id: 8,
-        name: "GitHub"
-    },
-
-    {
-        id: 9,
         name: "HTML5"
     },
 
     {
-        id: 10,
+        id: 8,
         name: "CSS3"
-    }
+    }, { id: 9, name: "R"}, { id: 10, name: "C"}
 ]
 
 export default languageData

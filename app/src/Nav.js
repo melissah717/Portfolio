@@ -6,7 +6,7 @@ function Nav(){
         <nav className="navbar">
             <ul>
                 <li><Link smooth to="#background">Background</Link></li>
-                <li><Link smooth to="#languages">Technologies</Link></li>
+                <li><Link smooth to="#languages">Technical Skills</Link></li>
                 <li><Link smooth to="#projects">Projects</Link></li>
             </ul>
         </nav>
