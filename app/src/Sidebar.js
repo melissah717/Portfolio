@@ -12,10 +12,10 @@ function Sidebar(){
                     -Carol Moseley-Braun
                 </div>
                 <div className="contact">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <a href="mailto: melissa.h717@outlook.com" className="links">Email  </a>
-                <a href="https://www.github.com/melissah717" className="links">    Github</a>
-                <a href="https://www.linkedin.com/in/melissah717" className="links">    LinkedIn</a>
+
+                <a href="mailto: melissa.h717@outlook.com" className="links"> <i class="fa fa-envelope" aria-hidden="true"></i>Email  </a>
+                <a href="https://www.github.com/melissah717" className="links"><i class="fa fa-github" aria-hidden="true"></i>   Github</a>
+                <a href="https://www.linkedin.com/in/melissah717" className="links"><i class="fa fa-linkedin-square" aria-hidden="true"></i>    LinkedIn</a>
                 </div>
             </div>
         </aside>

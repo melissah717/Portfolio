@@ -36,7 +36,7 @@ h1{
 
 
 a{
-    color: #1792d2;
+    color:#707070
 }
 
 a:hover,
@@ -130,7 +130,7 @@ Layout
         min-width: 200px;
         margin-right: 2em;
         background:#f8f8f8;
-        height: 60vh;
+        height: 80vh;
         margin-top: 0.7em;
     }
 }
@@ -234,8 +234,10 @@ Main
     order: -1
 }
 .links{
-    justify-items: flex-end;
+    font-size: 1em;
     text-decoration: none;
+    text-align: center;
+    line-height: 40px
 
 }
 
